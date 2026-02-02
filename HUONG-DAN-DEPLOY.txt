@@ -1,0 +1,46 @@
+HƯỚNG DẪN DEPLOY LÊN NETLIFY
+
+Bước 1: Chuẩn bị
+- Đảm bảo bạn có tất cả file: index.html, style.css, script.js và thư mục images với 6 hình
+
+Bước 2: Tạo tài khoản Netlify
+1. Truy cập: https://app.netlify.com
+2. Đăng ký tài khoản miễn phí (có thể dùng GitHub, GitLab hoặc Email)
+
+Bước 3: Deploy (Cách đơn giản - Kéo thả)
+1. Sau khi đăng nhập Netlify
+2. Kéo toàn bộ thư mục "den-keo-quan" vào vùng "Drop" trên trang Netlify
+3. Netlify sẽ tự động deploy và tạo link cho bạn
+
+Bước 4: Deploy qua Git (Cách theo đề bài)
+1. Tạo tài khoản GitHub (nếu chưa có): https://github.com
+2. Tạo repository mới trên GitHub
+3. Upload toàn bộ file lên repository
+
+4. Quay lại Netlify:
+   - Click "New site from Git"
+   - Chọn "GitHub"
+   - Chọn repository vừa tạo
+   - Build command: để trống
+   - Publish directory: / (hoặc để trống)
+   - Click "Deploy site"
+
+Bước 5: Lấy link
+- Sau khi deploy xong, Netlify sẽ tạo link dạng: https://ten-site.netlify.app
+- Bạn có thể đổi tên site trong Settings > Site details > Change site name
+
+XONG! Nộp link Netlify cho giáo viên.
+
+Lưu ý:
+- Đảm bảo cấu trúc thư mục đúng:
+  den-keo-quan/
+  ├── index.html
+  ├── style.css
+  ├── script.js
+  └── images/
+      ├── 1.jpg
+      ├── 2.jpg
+      ├── 3.jpg
+      ├── 4.jpg
+      ├── 5.jpg
+      └── 6.jpg
